@@ -10,6 +10,7 @@ a{
     text-decoration: none;
 }
 .primary_btn{
+    font-size: 1.25rem;
     padding: 21px 40px;
     gap: 20px;
     border-radius: 48px;
@@ -18,6 +19,7 @@ a{
     margin-top: 15px;
 }
 .primary_btn1{
+    font-size: 1.25rem;
     padding: 21px 40px;
     gap: 20px;
     border-radius: 48px;
@@ -93,7 +95,7 @@ common css end
 }
 .section_text h3{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 2.8rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -114,8 +116,57 @@ common css end
     text-transform: lowercase;
 }
 
-
-
-
-
 /* -----banner section end */
+
+/*<!-- -----we are gamer sectiom start-----  */
+.we_are_gamer{
+    padding: 90px 240px;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer_section_text h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer_section_text p{
+    margin-top: 20px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.our_purpose{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; 
+}
+.gamer_unleash{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!-- -----we are gamer sectiom end-----  */
