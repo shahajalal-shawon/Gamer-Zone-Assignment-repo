@@ -35,7 +35,7 @@ a{
 common css end
 ====================== */
 /* -----header part start----- */
-.header{
+.nav{
     padding: 20px 240px;
     align-items: center;
     display: flex;
@@ -181,6 +181,59 @@ common css end
     font-weight: 400;
     line-height: 30px; 
 }
+.online_images{
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+}
+.images{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-color: #F948B2;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: black;
+}
+.online_images:hover .overlay{
+    opacity: .6;
+    border: 3px solid #F948B2;
+    /* border-color: #F948B2; */
+    border-radius: 8px;
+}
+
+.icon{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hover_peragraph{
+    top: 60%;
+    left: 50%;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hover_peragraph:hover{
+    color: #F948B2;
+}
+.fa-play:hover {
+    color: #eee;
+  } 
 .online_gamer_images_section{
     padding: 48px 240px;
     display: flex;
@@ -224,7 +277,11 @@ common css end
 }
 .play_instantly_section_images img{
     position: relative;
+    /* width: 500px; */
+    /* width: 100%; */
 }
+
+
 .images2{
     top: -270px;
     left: -470px;
@@ -232,8 +289,6 @@ common css end
 /* <!-- -----play instantly section start----- --> */
 /* -----button section start----- */
 .button_section{
-    width: 1920px;
-    margin: 0 auto;
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -257,7 +312,7 @@ common css end
     transition: .4s;
 }
 .button_1:hover{
-    border: 2px solid #F948B2;
+    border: 1px solid #F948B2;
     color: #F948B2;
 }
 /* -----button section start----- */
@@ -315,3 +370,82 @@ footer{
 }
 
 /* footer section end----- */
+/* -----responsive section----- */
+
+/* -----small devise or mobile phone----- */
+@media screen and (max-width: 576px) {
+  
+  .nav,
+  .text, 
+  .banner, .we_are_gamer, .online_gamer_section, .online_images,
+  .play_instantly_section, .play_instantly_section_images, .all_button, .text ul, 
+  .footer_nav
+  {
+    flex-direction: column;
+  }
+  .text ul li a{
+    flex-direction: column;
+  }
+  .section_images img{
+    width: 100%;
+  }
+  .gamer_section_images img{
+    width:520px;
+  }
+  .online_gamer_images_section{
+    padding: 5px 16px;
+    flex-direction: column;
+  }
+  .gamer_section_images img {
+    width: 420px;
+}
+.text_btn{
+    /* margin-left: 150px; */
+    margin-right: 7px;
+} 
+.text ul{
+    margin: 0;
+}
+
+  .we_are_gamer, .all_button, .nav{
+    padding: 10px 20px;
+  }
+ 
+
+  .play_instantly_section{
+    padding: 0;
+  }
+  .section_images img {
+    margin-top: 20px;
+}
+.footer_nav{
+    margin-right: 85px;
+}
+
+
+
+
+
+}
+
+/* -----medium devise or tablet----- */
+@media screen and  (min-width: 576px) and (max-width:992px)  {
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
