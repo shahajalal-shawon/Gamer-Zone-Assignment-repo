@@ -373,8 +373,9 @@ footer{
 /* -----responsive section----- */
 
 /* -----small devise or mobile phone----- */
+
 @media screen and (max-width: 576px) {
-  
+ 
   .nav,
   .text, 
   .banner, .we_are_gamer, .online_gamer_section, .online_images,
@@ -406,12 +407,9 @@ footer{
 .text ul{
     margin: 0;
 }
-
   .we_are_gamer, .all_button, .nav{
     padding: 10px 20px;
   }
- 
-
   .play_instantly_section{
     padding: 0;
   }
@@ -422,16 +420,34 @@ footer{
     margin-right: 85px;
 }
 
-
-
-
-
 }
 
 /* -----medium devise or tablet----- */
 @media screen and  (min-width: 576px) and (max-width:992px)  {
     
+    .nav, .banner, .we_are_gamer, .online_gamer_images_section,
+    .play_instantly_section, .all_button
     
+    {
+        flex-direction: column;
+    }
+    
+    .we_are_gamer {
+        padding: 10px 20px;
+    }
+    .play_instantly_section{
+        padding: 0;
+    }
+    .images2 {
+        top: -242px;
+        left: -435px;
+    }
+
+
+
+
+
+
 
 
 }
